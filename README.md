@@ -8,7 +8,7 @@ The identified factors are: Senior Citizen status, Internet Service type, Paperl
 
 To predict Churn, we start off with a logistic regression model as a baseline model. We then use some minority oversampling in order to balance our dataset. Since only 27% of the records in our database were marked as “churned”, feeding our data into our algorithm without oversampling would have led it to underclassify our target variable. We use SMOTE for Imbalanced Classification for our dataset.
 
-Following the CRISP-DM methodology, we iterate by adding multiple features and compare the baseline model with a Random Forest model. To identify the best model, we performe a randomized search and PCA to see if that had an influence and thereby pick the best performing model.
+Following the CRISP-DM methodology, we iterate by adding multiple features and compare the baseline model with a Random Forest model. To identify the best model, we perform a randomized search and PCA to see if that had an influence and thereby pick the best performing model.
 
 **Dataset source:** Kaggle
 
